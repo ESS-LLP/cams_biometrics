@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cams_biometrics *.css
+recursive-include cams_biometrics *.csv
+recursive-include cams_biometrics *.html
+recursive-include cams_biometrics *.ico
+recursive-include cams_biometrics *.js
+recursive-include cams_biometrics *.json
+recursive-include cams_biometrics *.md
+recursive-include cams_biometrics *.png
+recursive-include cams_biometrics *.py
+recursive-include cams_biometrics *.svg
+recursive-include cams_biometrics *.txt
+recursive-exclude cams_biometrics *.pyc
